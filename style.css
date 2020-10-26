@@ -225,6 +225,7 @@ ul#footer-social-links a{
     }
     #service-section{
         background: white;
+        margin-top: 170px;
     }
     #contact-section{
         margin-top: 50px;
@@ -232,6 +233,10 @@ ul#footer-social-links a{
     .contact-text{
         display: block;
     }
+    .telegram-button{
+        margin-top: 30px;
+    }
+    
 }
 
 @media (min-width: 768px) { }
