@@ -1,0 +1,241 @@
+#home{
+  background: url('./images/banner.jpg') center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+#home h1{
+
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+}
+
+.heading h1{
+
+    margin-bottom: 40px;
+}
+
+.whatsApp{
+
+    background: #1EBEA5;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+.whatsApp:hover{
+
+    background: #15a892;
+}
+
+.telegram{
+
+    background: #00BBCC;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: white;
+
+}
+
+.app{
+
+    background: orange;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: white;
+
+}
+
+.app:hover{
+
+    background: rgb(216, 140, 0);
+}
+
+.telegram:hover{
+
+    background: #019dac;
+}
+
+#home a{
+
+    text-decoration: none;
+}
+
+.team-details a{
+
+    text-decoration: none;
+}
+
+.team-details a:hover{
+
+    color: white;
+}
+
+#home a:hover{
+
+    color: white;
+
+}
+.nav-item a:hover{
+
+    border-bottom: 1px solid black;
+}
+.nav-item a{
+
+    margin-right: 10px;
+}
+
+#about{
+  height: 700px;
+}
+.about-image{
+    display: block;
+}
+#team{
+    height: 750px;
+}
+.about-details a{
+    margin-right: 15px;
+}
+
+#service-section{
+
+  background: url('./images/services.jpg') center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+#service-row{
+
+    height: 600px;
+}
+.service-tab{
+
+    height: 400px;
+}
+
+.service-tab a:hover{
+
+    text-decoration: none;
+    color: white;
+}
+.youtube{
+
+    background: red;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: white;
+
+}
+.youtube:hover{
+
+    background: rgb(224, 0, 0);
+}
+
+.blog{
+
+    background: #007aff;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    color: white;
+
+}
+.blog:hover{
+
+    background: #006cdf;
+}
+
+.header-active {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+#contact{
+
+    height: 600px;
+}
+
+#contact-section{
+
+    height: 700px;
+}
+
+.footer{
+
+    background: rgb(88, 88, 88);
+    margin: 0;
+}
+
+ul#footer-quick-links a{
+
+    color: white;
+    text-decoration: none;
+}
+
+ul#footer-quick-links a:hover{
+
+    border-bottom: 1px solid white;
+  
+  }
+
+ul#footer-social-links li{
+
+    display: inline-block;
+}
+
+ul#footer-social-links a{
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#privacy-policy-and-terms-and-conditions a{
+
+    text-decoration: none;
+    color: white;
+}
+#footer{
+
+    height: 300px;
+}
+
+@media (max-width: 576px) {
+    .about-image{
+        display: none;
+    }
+    .contact-us{
+        display: none;
+    }
+    #service-section{
+        background: white;
+    }
+    #contact-section{
+        margin-top: 50px;
+    }
+    .contact-text{
+        display: block;
+    }
+}
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
