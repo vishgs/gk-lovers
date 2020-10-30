@@ -9,9 +9,13 @@
 
     font-size: 80px;
     font-weight: bold;
-    color: rgb(117, 117, 117);
+    color: rgb(87, 87, 87);
 }
 
+.btn{
+
+    border-radius: 100px;
+}
 .heading h1{
 
     margin-bottom: 40px;
@@ -97,24 +101,52 @@
 }
 
 #about{
-  height: 700px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .about-image{
     display: block;
 }
 #team{
-    height: 750px;
-}
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
 .about-details a{
     margin-right: 15px;
 }
 
 #service-section{
 
-  background: url('./images/services.jpg') center;
-  background-size: cover;
-  width: 100%;
-  height: 600px;
+    background: #dbe9ea;
+    padding-top: 270px;
+    padding-bottom: 270px;
+}
+
+
+#youtube-section h3{
+
+    font-size: 60px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+#blogger-section h3{
+
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+#youtube:hover{
+
+    background: #dc3545;
+    color: white;
+}
+
+#blogger:hover{
+
+    background: #ffc107;
+    color: white;
 }
 
 #service-row{
@@ -167,14 +199,15 @@
     background-color: rgba(255, 255, 255, 0.8);
   }
 
-#contact{
+/* #contact{
 
     height: 600px;
-}
+} */
 
 #contact-section{
 
-    height: 700px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .footer{
@@ -195,9 +228,11 @@ ul#footer-quick-links a:hover{
   
   }
 
-ul#footer-social-links li{
+ul#menu li {
 
-    display: inline-block;
+    position: relative;
+    display:inline;
+    margin-right: 10px;
 }
 
 ul#footer-social-links a{
@@ -221,26 +256,79 @@ ul#footer-social-links a{
         display: none;
     }
     .contact-us{
-        display: none;
+        text-align: center;
     }
+
     #service-section{
-        background: white;
-        margin-top: 300px;
+
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
+    #blogger-section{
+
+        margin-top: 70px;
+    }
+    #team{
+        padding-top: 25px;
+        padding-bottom: 20px;
+      }
+
     #contact-section{
         margin-top: 50px;
     }
     .contact-text{
+
         display: block;
+
     }
     .telegram-button{
+
         margin-top: 30px;
+
     }
-    
+
+    #telegram-button{
+
+        margin-top: 20px;
+
+    }
 }
 
-@media (min-width: 768px) { }
+@media (max-width: 767.98px) { 
 
-@media (min-width: 992px) { }
+    #service-section{
 
-@media (min-width: 1200px) { }
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #blogger-section{
+
+        margin-top: 70px;
+    }
+    .contact-us{
+        text-align: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    #service-section{
+
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    #youtube-section h3{
+
+        font-size: 40px;
+    }
+    
+    #blogger-section h3{
+    
+        font-size: 40px;
+    }
+ }
+
+@media (max-width: 1199.98px) { 
+
+}
