@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-<!-- 
+    <!-- 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
 
@@ -109,21 +109,25 @@
             <div id="team" class="row">
                 <div class="col-md-6 my-auto">
                     <div class="our-team">
-                        <div><img src="./team/pro pic-ajin-biology.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-anand poul-maths.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-Ananthakrishnan S- india.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-anantha krishnan- chemistry.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-ananthu chemistry.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-Anjana chemistry.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-anoop sir.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-arun reghu.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-karthik.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-ponnu- india.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-salman- india.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-Shameer Constitution.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-suhail-maths.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-vihnu Renaissance.jpg" alt="team-member"></div>
-                        <div><img src="./team/pro pic-vishnu kalidas maths.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-ajin-biology.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-Anand-paul-maths.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-anandha-krishnan-G-Chemistry.jpg" alt="team-member">
+                        </div>
+                        <div><img class="img-fluid" src="./team/Pro-anandha-krishnan-india.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-anandha-krishnan-Physics.jpg" alt="team-member">
+                        </div>
+                        <div><img class="img-fluid" src="./team/Pro-Anjana-R--Chemistry.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-Anoop---english.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-devidas-ca.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-Karthik-keralam.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-ponnu.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-Run-reghup---english.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-salman.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-shameer-india.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-Suhail-Vahabl-maths.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-vaishanavi-malayalam.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-vishnu-das-maths.jpg" alt="team-member"></div>
+                        <div><img class="img-fluid" src="./team/Pro-vishnu-keralam.jpg" alt="team-member"></div>
                     </div>
                 </div>
                 <div class="col-md-6 my-auto">
@@ -157,7 +161,7 @@
             <div class="col-md-6 my-auto">
                 <div id="youtube-section">
                     <div class="text-center">
-                        <img class="pb-3" src="./images/youtube.png" width="150" height="150" alt="">
+                        <img class="pb-3" src="./images/youtube.png" width="140" height="150" alt="">
                     </div>
                     <div class="text-center pb-3">
                         <h3>Make Lessons Easier</h3>
@@ -173,7 +177,7 @@
             <div class="col-md-6">
                 <div id="blogger-section">
                     <div class="text-center">
-                        <img class="pb-3" src="./images/blogger.png" width="150" height="150" alt="">
+                        <img class="pb-3" src="./images/blogger.png" width="140" height="150" alt="">
                     </div>
                     <div class="text-center pb-3">
                         <h3>Get notes from here</h3>
@@ -304,13 +308,12 @@
         $(document).ready(function () {
             $('.our-team').slick({
 
-                dots: true,
-                infinite: true,
-                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 fade: true,
+                cssEase: 'linear',
                 autoplay: true,
                 autoplaySpeed: 1000,
-                cssEase: 'linear'
 
             });
         });

@@ -6,6 +6,11 @@ body{
     overflow-x: hidden;
 }
 
+.our-team img{
+
+    width: 550px;
+    height: 550px;
+}
 #home{
   background: url('./images/home.jpg') center;
   background-size: cover;
@@ -22,7 +27,7 @@ body{
 
 .btn{
 
-    border-radius: 100px;
+    border-radius: 200px;
 }
 .heading h1{
 
@@ -307,6 +312,11 @@ ul#footer-social-links a{
 
         margin-top: 20px;
 
+    }
+    .our-team img{
+
+        width: 550px;
+        height: 400px;
     }
 }
 
