@@ -1,23 +1,29 @@
-function whatsapp(){
+function whatsapp() {
 
-    window.location.href="https://chat.whatsapp.com/CQBH32gFDmPBawxpLVjo6i"
-
-}
-
-function telegram(){
-
-    window.location.href="https://t.me/gklovers"
+    window.location.href = "https://chat.whatsapp.com/CQBH32gFDmPBawxpLVjo6i"
 
 }
 
-function youtube(){
+function telegram() {
 
-    window.location.href="https://www.youtube.com/channel/UCIEY3UStz9E_w8mSXVfV5pQ"
+    window.location.href = "https://t.me/gklovers"
 
 }
 
-function blog(){
+function youtube() {
 
-    window.location.href="https://www.gklovers.com/"
+    window.location.href = "https://www.youtube.com/channel/UCIEY3UStz9E_w8mSXVfV5pQ"
+
+}
+
+function blog() {
+
+    window.location.href = "https://www.gklovers.com/"
+
+}
+
+function app() {
+
+    window.location.href = "https://play.google.com/store/apps/details?id=com.dockode.rental.gklovers"
 
 }

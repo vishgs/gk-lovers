@@ -18,6 +18,14 @@ body{
   height: 800px;
 }
 
+#app-section{
+
+  background: url('./images/our-app.jpg') center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
 #home h1{
 
     font-size: 80px;
@@ -114,6 +122,12 @@ body{
 }
 
 #about{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#app{
+    
   padding-top: 150px;
   padding-bottom: 150px;
 }
