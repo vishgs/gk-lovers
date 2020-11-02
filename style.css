@@ -20,7 +20,7 @@ body{
 
 #app-section{
 
-  background: url('./images/app-image.jpg') center;
+  background: url('./images/our-app.jpg') center;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -165,7 +165,7 @@ body{
 
     font-size: 60px;
     font-weight: bold;
-    color: #ffc107;
+    color: #007aff;
 }
 
 #youtube:hover{
@@ -176,7 +176,7 @@ body{
 
 #blogger:hover{
 
-    background: #ffc107;
+    background: #007aff;
     color: white;
 }
 
