@@ -146,6 +146,10 @@ body{
     margin-right: 15px;
 }
 
+.about-details em:hover{
+
+    transform: scale(1.2);
+}
 #service-section{
 
     background: #dbe9ea;
