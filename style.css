@@ -286,6 +286,7 @@ ul#footer-social-links a{
     height: 300px;
 }
 
+/*Media Query*/
 @media (max-width: 576px) {
 
     body{
@@ -294,6 +295,14 @@ ul#footer-social-links a{
         margin: 0px;
         padding: 0px;
         overflow-x: hidden;
+    }
+
+    #home{
+        height: 500px;
+    }
+
+    #home h1{
+        font-size: 35px;
     }
     .about-image{
         display: none;
@@ -327,7 +336,7 @@ ul#footer-social-links a{
     .our-team img{
 
         width: 550px;
-        height: 400px;
+        height: 380px;
     }
 }
 
