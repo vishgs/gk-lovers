@@ -296,7 +296,6 @@ ul#footer-social-links a{
         padding: 0px;
         overflow-x: hidden;
     }
-
     #home{
         height: 650px;
     }
@@ -377,4 +376,9 @@ ul#footer-social-links a{
 
 @media (max-width: 1199.98px) { 
 
+    #navbarSupportedContent{
+
+        background: transparent;
+        padding: 0;
+    }
 }
