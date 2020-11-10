@@ -296,6 +296,7 @@ ul#footer-social-links a{
         padding: 0px;
         overflow-x: hidden;
     }
+
     #home{
         height: 650px;
     }
@@ -353,6 +354,12 @@ ul#footer-social-links a{
     .contact-us{
         text-align: center;
     }
+
+    #navbarSupportedContent{
+
+        background: white;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -371,6 +378,12 @@ ul#footer-social-links a{
     #blogger-section h3{
     
         font-size: 40px;
+    }
+
+    #navbarSupportedContent{
+
+        background: white;
+        padding: 10px;
     }
  }
 

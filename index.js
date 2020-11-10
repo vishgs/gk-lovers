@@ -28,19 +28,22 @@ function app() {
 
 }
 
-function changeColor(){
+function changeColor() {
 
-    window.onresize = function(){
+    document.getElementById("navbarSupportedContent").style.background = "white";
+    document.getElementById("navbarSupportedContent").style.padding = "10px";
+    
+    window.onresize = function () {
 
-        if(window.innerWidth > 992){
+        if (window.innerWidth > 992) {
 
             document.getElementById("navbarSupportedContent").style.background = "transparent";
 
-        }else {
+        } else {
 
             document.getElementById("navbarSupportedContent").style.background = "white";
             document.getElementById("navbarSupportedContent").style.padding = "10px";
-        
+
         }
     }
 }
